@@ -27,3 +27,12 @@ Dependencies supported by terraform ecosystem:
 - Modules hosted on Terraform Registry or a publicly reachable Git repository.
 - Terraform providers.
 - Private Terraform Registry.
+
+You can also enable it by navigating to the security tab for the repository -> Dependabot alerts -> Enable Dependabot Alerts -> Dependabot version updates and click `Configure`
+
+## Triggering Dependabot
+
+Dependabot will check your dependencies at the interval define, but you can also manually trigger it.
+
+- First commit: Dependabot will perform a dependency scan the first time you commit a `dependabot.yml` file to a repository.
+- Dependency Graph: You can go to the security tab for the repository -> Dependabot alerts -> Enable Dependabot Alerts and enable Dependabot dependency graph. Then you can do to insights -> Dependency Graph -> Dependabot -> Recent job updates and click `Check for updates`
